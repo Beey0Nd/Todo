@@ -38,7 +38,7 @@ const TodoInput: React.FC<Props> = ({ setExpanded }) => {
             autoComplete="off"
             InputProps={{ disableUnderline: true }}
             onClick={(e) => e.stopPropagation()}
-            onKeyPress={handleKey}
+            onKeyUp={handleKey}
             onChange={handleChange}
             value={newTodo.text}
             label="What needs to be done?"
