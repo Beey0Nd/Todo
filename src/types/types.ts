@@ -1,4 +1,4 @@
-// State related
+// State
 export interface IState {
     todoList: TTodoList,
     filter: TFilter,
@@ -15,7 +15,7 @@ export type Text = string
 export type Completed = boolean;
 export type Id = string
 
-// Action related
+// Actions
 export interface AddTodoAction {
     type: "ADD_TODO",
     payload: ITodo

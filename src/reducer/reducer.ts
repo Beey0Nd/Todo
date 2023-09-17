@@ -6,12 +6,6 @@ export const initialState: IState = {
     todoList: [],
     filter: "all",
 }
-
-// const reducer = createReducer(initialState, builder => {
-//     builder.addMatcher(addTodo, (state, action) => {
-//         state.todoList = [action.payload, ...state.todoList]
-//     })
-// })
  
 const reducer = (state = initialState, action: ActionTypes): IState => {
     const { todoList } = state;

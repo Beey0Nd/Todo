@@ -1,12 +1,4 @@
-// import { createAction } from "@reduxjs/toolkit"
 import { ActionTypes, Id, ITodo, TFilter } from "../types/types"
-
-
-// export const addTodo = createAction("ADD_TODO")
-// export const setCompleted = createAction("SET_COMPLETED")
-// export const removeCompleted = createAction("REMOVE_COMPLETED")
-// export const setFilter = createAction("SET_FILTER")
-
 
 export const addTodo = (todo: ITodo): ActionTypes => {
     return {
